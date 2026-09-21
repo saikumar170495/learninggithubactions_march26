@@ -1,0 +1,10 @@
+---
+name: exercise7
+on:
+    workflow_dispatch:
+jobs:
+    exercise7:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print ashok
+              run: echo "ashok"

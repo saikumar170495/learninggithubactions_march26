@@ -8,5 +8,5 @@ jobs:
     exercise3:
         runs-on: ubuntu-latest
         steps:
-            - name: print hi
-              run: echo "hi"
+            - name: print saikumar
+              run: echo "saikumar"
