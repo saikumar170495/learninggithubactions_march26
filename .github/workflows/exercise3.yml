@@ -1,0 +1,12 @@
+---
+name: exercise3
+on:
+    push:
+        branches:
+            - dev
+jobs:
+    exercise3:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print hi
+              run: echo "hi"
