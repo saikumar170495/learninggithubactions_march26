@@ -1,0 +1,12 @@
+---
+name: exercise5
+on:
+    schedule:
+        - cron: '59 11 21 9 *
+'
+jobs:
+    exercise5:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print saikumar
+              run: echo "saikumar"
