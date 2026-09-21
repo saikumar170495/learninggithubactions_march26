@@ -1,0 +1,12 @@
+---
+name: exercise1
+on:
+    push:
+        branches:
+            - main
+jobs:
+    learning:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print hello how r u
+              run: echo "hello how r u"
