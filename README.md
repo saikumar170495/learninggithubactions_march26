@@ -1,1 +1,5 @@
-# learninggithubactions_march26
+# learninggithubactions-march26
+### componants
+* on
+* jobs
+* steps
