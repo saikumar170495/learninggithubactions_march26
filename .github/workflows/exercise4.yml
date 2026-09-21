@@ -1,0 +1,14 @@
+---
+name: exercise4
+on:
+    pull_request:
+        branches:
+            - dev
+jobs:
+    exercise4:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print thanks for pull request
+              run: echo "thanks for pull request"
+            - name: list environment variables
+              run: printenv
